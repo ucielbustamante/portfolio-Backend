@@ -30,7 +30,7 @@ import com.portfolio.demo.service.ISkillService;
 import com.portfolio.demo.service.ISocialMediaService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-frontend-5a014.web.app/")
 public class Controller {
 
 	@Autowired

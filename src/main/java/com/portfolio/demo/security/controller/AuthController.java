@@ -32,7 +32,7 @@ import com.portfolio.demo.security.jwt.JwtProvider;
 import com.portfolio.demo.security.service.RolService;
 import com.portfolio.demo.security.service.UserService;
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://portfolio-frontend-5a014.web.app/")
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
